@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <title>Nikita Vaulin</title>
+    <link rel="icon" href="static/images/profile.png " type="image/png">
+     <script src="static/js/titlepage.jss"></script>
+     <script src="static/js/word_cloud.js"></script>
+</head>
+<body>
+
+<!-- Here starts the header , style="position: fixed; top: 0px; width: 100%; z-index: 10000;" -->
+<div class="px-3 py-3  fixed-top text-bg-dark">
+    <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <h4> Nikita Vaulin </h4>
+            </a>
+
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li><a href="/#top" class="btn mx-3 btn-outline-light"> Home </a></li>
+                <li><a href="/CV" class="btn mx-1 text-white"> CV </a></li>
+                <li><a href="/Publications" class="btn mx-1 text-white"> Publications </a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Title Screen-->
+<div class="imageContainer">
+    <div class="container pt-5 px-5">
+        <div class="row mb-2 align-items-center">
+            <div class="col-12 col-lg-6 mb-5 mb-lg-0 me-auto">
+                <div class="shadow p-3 mb-5 bg-light rounded bg-opacity-75">
+                    <h2 class="display-3" id="greeting"> Hi, i am</h2>
+                    <h1 class="display-1 fw-normal" id="name">Nikita Vaulin</h1>
+                    <p/>
+                    <p class="lead-15 fw-normal">Bioinformatician. Biophysicist. Molecular biologist.</p>
+                </div>
+            </div>
+
+            <div class=" col-5 col-lg-5 justify-content-center align-items-center">
+                <img class="img" src="static/images/nick_new_beyond_borders.png" alt="Nikita Vaulin"
+                     style="height:120%;width:120%">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="static/js/titlepage.js"></script>
+
+
+<!--About-->
+<div class="container pt-5 px-3">
+    <div class="row align-items-center">
+        <div class="col-8 ">
+            <h2 class="display-3"> About </h2>
+            <div class="bg-body-padding rounded-4">
+                <p>
+                    Now I am <b> forging my bioinformatician soul</b> and looking for ways to move from study to
+                    actions. I work
+                    in prof. Severinov's lab, where I study the CRISPR-Cas systems <b>using NGS methods</b>.
+                    I have now found myself making the most of my experience in developing my own bioinformatics tools
+                    and teaching.
+                </p>
+
+                <p>
+                    I feel part of the global bioinformatics community and I want to do my bit in this area.
+                </p>
+                <p>
+                    Currently I have <strong>2 goals</strong>:
+                </p>
+                <ol>
+                    <li>
+                        <strong>To develop as a bioinformatician</strong>. I am considering doing a <i>PhD in Europe</i>
+                        in
+                        computational biology, or working in a <i>knowledge-intensive industry</i>.
+                    </li>
+                    <li>
+                        <strong>To develop as a teacher</strong>. I've already done my short course on workflow
+                        organization
+                        (Snakemake, Git, GitHub) and I am going to be a <s>dad</s> leading instructor on the year-long
+                        python
+                        course in the Bioinformatics institute!
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class=" col-4 justify-content-center">
+            <div class="lead-15 fw-normal" style="text-align: center; line-height: 2.1; margin-top: 5rem">
+                <p><i class="bi bi-phone"></i> 8 (911) 157-84-27</p>
+                <p><i class="bi bi-envelope"></i> vaulin@ro.ru</p>
+                <p><i class="bi bi-linkedin"></i> nvaulin</p>
+                <p><i class="bi bi-github"></i> nvaulin</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Education-->
+<div class="container pt-5 px-3">
+    <div class="row col-12 align-items-center">
+        <!--        <div class="hr-blue"></div>-->
+        <h2 class="display-3 text-center "> Education </h2>
+        <!--        <div class="hr-blue"></div>-->
+        <div class="bg-body-padding rounded-4 center-container">
+
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="event event-top" id="event" style="--pos: 17%; --height-vline: 50px;">
+                        <div class="popup">
+                            <div class="fw-bold mb-1 small"><i class="bi bi-bookmark-fill"></i> Relevant subjects</div>
+                            <div class="popup-text">
+                                Physics (48 ECTS) </br>
+                                Calculus (31 ECTS) </br>
+                                Biophysics (30 ECTS) </br>
+                                Biostatistics (4 ECTS) </br>
+                                Biochemistry (13 ECTS) </br>
+                                Programming (8 ECTS) </br>
+                                Electronics lab (6 ECTS) </br>
+                                Molecular biology and genetics (24 ECTS) </br>
+                                Quantum chemistry and molecular modelling (8 ECTS) </br>
+                            </div>
+                        </div>
+                        <div class="event-icon">
+                            <img src="static/images/polytech.png" alt="polytech" height="30">
+                        </div>
+                        <div class="event-header">
+                            BSc in Biochemical physics
+                        </div>
+                        <div class="event-description">
+                            Peter the Great St.Petersburg Polytechnic University
+                        </div>
+                        <div class="event-date">
+                            Sept 2018 – Jun 2022
+                        </div>
+                    </div>
+
+                    <div class="event event-top mt-4" id="event" style="--pos: 50%; --height-vline: 20px;">
+                        <div class="popup">
+                            <div class="fw-bold mb-1 small"><i class="bi bi-bookmark-fill"></i> Relevant subjects </div>
+                            <div class="popup-text">
+                                Python </br>
+                                Statistics </br>
+                                Discrete math </br>
+                                Machine learning </br>
+                                Bioinformatics lab </br>
+                                Molecular phylogenetics and evolution </br>
+                            </div>
+                        </div>
+                        <div class="event-icon">
+                            <img src="static/images/BI.png" alt="polytech" height="50">
+                        </div>
+                        <div class="event-header">
+                            Bioinformatics for biologists
+                        </div>
+                        <div class="event-description">
+                            Bioinformatics institute qualification program
+                        </div>
+                        <div class="event-date">
+                            Sept 2022 – Jun 2023
+                        </div>
+                    </div>
+
+                    <div class="event event-top" id="event" style="--pos: 83%; --height-vline: 50px;">
+                        <div class="popup">
+                            <div class="fw-bold mb-1 small"><i class="bi bi-bookmark-fill"></i> Relevant subjects</div>
+                            <div class="popup-text">
+                                Molecular Biology (6 ECTS) </br>
+                                Biostatistics (6 ECTS) </br>
+                                Bioinformatics (6 ECTS) </br>
+                                Omics Data Analysis (6 ECTS) </br>
+                                Experimental Design in Biology (3 ECTS) </br>
+                                Computational Methods in Genetics (6 ECTS) </br>
+                                Introduction to Data Science (3 ECTS) </br>
+                                CAD Modeling (1 ECTS)  </br>
+
+                            </div>
+                        </div>
+                        <div class="event-icon">
+                            <img src="static/images/skoltech.png" alt="polytech" height="30">
+                        </div>
+                        <div class="event-header">
+                            MSc in Life Sciences
+                        </div>
+                        <div class="event-description">
+                            Skolkovo Institute of Science and Technology
+                        </div>
+                        <div class="event-date">
+                            Sept 2022 – Jun 2024
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-2 mb-1" style="font-size: 1.1rem;"><i> and plenty of workshops and online
+                courses </i>...
+            </div>
+            <div>
+                <div class="container px-2 ">
+                    <div class="marquee">
+                        <span class="online">Data analysis in R |
+                        R programming |
+                        Python basics and applications |
+                        Python Programming |
+                        Statistics |
+                        Biotechnology: gene engineering |
+                        Molecular phylogenetics |
+                        Machine learning |
+                        Web-technologies |
+                        Introduction to NGS |
+                        Introduction to Linux |
+                        Molecular biology and genetics |
+                        Git/GitHub basics |
+                        Git-game |
+                        <i>De novo </i> assembly of the <i>Darevskia raddei</i> lizard genome |
+                        Mathematical modeling in drug development |
+                        Innovation workshop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Experience-->
+<div class="container pt-5 px-3">
+    <div class="row col-12 align-items-center">
+        <!--        <div class="hr-blue"></div>-->
+        <h2 class="display-3 text-center "> Experience </h2>
+        <!--        <div class="hr-blue"></div>-->
+        <div class="bg-body-padding rounded-4 center-container">
+
+            <div class="row mt-2 mb-3 mx-4 g-0 border rounded overflow-hidden flex-md-row  position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Research on type I CRISPR-Cas systems</h3>
+                    <div class="mb-3 text-body-secondary">Laboratory assistant, BSc and MSc student</div>
+                    <p class="card-text mb-auto">
+                        I perform all stages of the work from <b>conducting experiments</b> and
+                        Illumina libraries preparation to <b>NGS data processing</b>. My key research topics are:
+                    </p>
+                    <ol>
+                        <li>
+                            Study of functioning of the Cas3 helicase-nuclease
+                        </li>
+                        <li>
+                            Studying the role of cellular nucleases in the operation of CRISPR-Cas systems
+                        </li>
+                    </ol>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> R (ggplot2, statistics), bash
+                        (scripts, sam-tools, bwa), UGENE, ChIP-seq, 3-C, CorelDraw
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> Oct 2020 – current</div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        Skolkovo Institute of Science and Technology & «NanoBio» research center, SPbPU & <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                        Institute of Molecular Genetics, National Research Centre «Kurchatov Institute»
+                    </div>
+                </div>
+                <div class="col-auto d-md-flex"
+                     style="background-color: white; padding: 10px;  display: flex; align-items: center; justify-content: center;">
+                    <img src="static/images/exp_crispr.png" alt="CRISPR-Cas experience" width="400">
+                </div>
+            </div>
+
+            <div class="row mt-2 mb-3 mx-4 g-0 border rounded overflow-hidden flex-md-row  position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0"><i>In silico </i>generation of metagenomic communities</h3>
+                    <div class="mb-3 text-body-secondary">Bioinformatician intern</div>
+                    <p class="card-text mb-auto">
+                        I <b>develop a python tool</b> (GitHub <a href="https://github.com/nvaulin/samovar">
+                        SAMOVAR </a>) to generate metagenomes with specified properties. It is useful
+                        for validating the work of metagenome analysis tools.
+                        I implemented part of the algorithm for selecting the required species based on SAT-solvers as
+                        well as interaction with the NCBI database
+                    </p>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> Git, NCBI, conda, python (pandas,
+                        biopython, pysat)
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> Jan 2023 – current</div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        CT ITMO & Bioinformatics institute
+                    </div>
+                </div>
+                <div class="col-auto d-md-flex"
+                     style="background-color: white; padding: 10px;  display: flex; align-items: center; justify-content: center;">
+                    <img src="static/images/pipeline.png" alt="Metagenomics experience" width="400">
+                </div>
+            </div>
+
+            <div class="row mt-2 mb-3 mx-4 g-0 border rounded overflow-hidden flex-md-row  position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Phage DNA-mimic Ocr impact on the <i>E. coli</i> chromatin</h3>
+                    <div class="mb-3 text-body-secondary"> MSc student</div>
+                    <p class="card-text mb-auto">
+                        I analyse HiC data of the <i>E. coli</i> genome and integrate it with the ChIP-seq and RNA-seq
+                        data. We found that Ocr DNA-mimic expression is not equal to the Hu <i>E. coli</i>
+                        DNA-structuring protein deletion (which actually made things more complicated).
+                    </p>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> python (numpy, matplotlib,
+                        cooltools), distiller, nextflow
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> May 2023 – current</div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        Skolkovo Institute of Science and Technology
+                    </div>
+                </div>
+                <div class="col-auto d-md-flex"
+                     style="background-color: white; padding: 10px;  display: flex; align-items: center; justify-content: center;">
+                    <img src="static/images/hic_omics.png" alt="HiC experience" width="400">
+                </div>
+            </div>
+
+            <!--            <div class="center-container row">
+                            <a href="Experience.html" class="more-info btn btn-primary ">
+                                Want to learn more about my experience? Check out the
+                                &nbsp;<b class="my-a">Experience</b>&nbsp; page!
+                            </a>-->
+
+        </div>
+    </div>
+</div>
+
+<!--Skills-->
+<div class="container pt-5 px-3">
+    <div class="row col-12 align-items-center">
+        <h2 class="display-3 text-center "> Skills </h2>
+        <div class="bg-body-padding rounded-4 center-container">
+            <div class="image-container">
+                <img src="static/images/Evidence_board_website.png" alt="Skills" width="100%">
+                <h3 class="image-text"
+                    style="top: 14.9%; left: 29.8%; transform: translate(-50%, -50%) rotate(10.9deg);">
+                    Programming</h3>
+                <p class="image-text"
+                   style="top: 55%; left: 14.75%; transform: translate(-50%, -50%) rotate(-3deg);">
+                    <b>Python</b> (Pandas, NumPy, Scikit-learn) </br>
+                    <b>R</b> (ggplot2, tidyverse, knitr, emo) </br>
+                    <b>Bash</b> (scripts), Git </br>
+                    Classical ML, basic C++
+                </p>
+                <h3 class="image-text"
+                    style="top: 65.7%; left: 14.9%; transform: translate(-50%, -50%) rotate(-3deg);">Bioinf</h3>
+                <p class="image-text"
+                   style="top: 77%; left: 14.8%; transform: translate(-50%, -50%) rotate(-3deg);">
+                    <b>NGS</b> data processing</br>
+                    <b>ChIP-seq, Hi-C, GWAS, RNA-seq</b></br>
+                    variant calling, genome assembly</br>
+                    biostatistics and visualization
+                </p>
+                <h3 class="image-text"
+                    style="top: 15.6%; left: 72.5%; transform: translate(-50%, -50%) rotate(-7deg);">Lab</h3>
+                <p class="image-text" style="top: 54%; left: 80%; transform: translate(-20%, -50%) rotate(-2deg);">
+                    NGS libraries preparation</br>
+                    ChIP-seq 3C</br>
+                    gene knock-out</br>
+                    work with <i>E. coli</i> and P1 phage</br>
+                </p>
+                <h3 class="image-text"
+                    style="top: 78.9%; left: 41.3%; transform: translate(-50%, -50%) rotate(6deg);">Teaching</h3>
+                <p class="image-text"
+                   style="top: 86.7%; left: 71.1%; transform: translate(-50%, -50%) rotate(29deg); font-size: 50;">
+                    laser cutter</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Teaching Experience-->
+<div class="container pt-5 px-3">
+    <div class="row col-12 align-items-center">
+        <!--        <div class="hr-blue"></div>-->
+        <h2 class="display-3 text-center "> Teaching experience </h2>
+        <!--        <div class="hr-blue"></div>-->
+        <div class="bg-body-padding rounded-4 center-container">
+            <div class="row mt-2 mb-3 mx-4 g-0 border rounded overflow-hidden flex-md-row  position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Workspace and workflow management in biology</h3>
+                    <div class="mb-3 text-body-secondary">My own short course</div>
+                    <p class="card-text mb-auto">
+                        I developed a Skoltech ISP (indepenent study period) course for 16 hours. In this course we
+                        practiced with some tools and shared each other experice. This course were <b>awarded</b> as a best
+                        student ISP 2023 course!
+                    </p>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> Git, GitHub, Snakemake, Bash
+                        scripts
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> Jan 2023</div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        Skolkovo Institute of Science and Technology
+                    </div>
+                </div>
+                <div class="col-auto d-md-flex"
+                     style=" display: flex; align-items: center; justify-content: center;">
+                    <img src="static/images/isp2.jpg" alt="My course!" width="400">
+                </div>
+            </div>
+            <div class="row mt-2 mb-3 mx-4 g-0  overflow-hidden flex-md-row  position-relative">
+                <div class="col p-4 d-flex mx-2 flex-column position-static border rounded">
+                    <h3 class="mb-0">Bioinformatics club</h3>
+                    <div class="mb-3 text-body-secondary">My own club</div>
+                    <p class="card-text mb-auto">
+                        I managed club meetings, gave short lectures on some topics, demonstrate solutions to some
+                        problems from the
+                        <a href="https://rosalind.info/problems/list-view/">Rosalind website </a>
+                    </p>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> python
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> Oct - Dec 2022</div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        Skolkovo Institute of Science and Technology
+                    </div>
+                </div>
+                <div class="col p-4 d-flex mx-2 flex-column position-static border rounded">
+                    <h3 class="mb-0">Machine learning</h3>
+                    <div class="mb-3 text-body-secondary">Teaching assistant, semester course</div>
+                    <p class="card-text mb-auto">
+                        I assessed the students assignments, gave feedback and answered questions.
+                    </p>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> python (scikit-learn, pytorch,
+                        matplotlib)
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> Jan – May 2023</div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        Bioinformatics institute
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2 mb-3 mx-4 g-0  overflow-hidden flex-md-row  position-relative">
+                <div class="col p-4 d-flex mx-2 flex-column position-static border rounded">
+                    <h3 class="mb-0">Metagenome analysis workshops</h3>
+                    <div class="mb-3 text-body-secondary">Teaching assistant, set of workshops</div>
+                    <p class="card-text mb-auto">
+                        I assisted students during the practice sessions. It is a set of workshops for pupils and
+                        students organised by the Skoltech <a href="https://studymeta.ru/"> Laboratory of Metagenome Analysis </a>
+                    </p>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> bash
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> Sep 2022 – current </div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        Skolkovo Institute of Science and Technology
+                    </div>
+                </div>
+                <div class="col p-4 d-flex mx-2 flex-column position-static border rounded">
+                    <h3 class="mb-0">Reference-free comparative analysis of metagenomic data</h3>
+                    <div class="mb-3 text-body-secondary"> Teaching assistant, workshop</div>
+                    <p class="card-text mb-auto">
+                        I assisted students during the practice session. It was one of the seminars of the NGS data
+                        analysis workshop.
+                    </p>
+                    <div class="mt-2 text-body-secondary"><i class="bi bi-gear"></i> python (pandas, scipy, matplotlib)
+                    </div>
+                    <div class="mt-2 text-body-tertiary"><i class="bi bi-calendar-week"></i> Apr 2023</div>
+                    <div class="mt-0 text-body-tertiary small" style="line-height: 1;"><i class="bi bi-building"></i>
+                        Bioinformatics institute
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Volunteering Experience-->
+<div class="container pt-5 px-2 ">
+    <h2 class="display-3 text-center"> Volunteering Experience </h2>
+    <div class="row  bg-body-padding rounded-4">
+        <div class="col-6">
+            <div class="fw-bold mx-1"> Skoltech Triple Point X Startup Village</div>
+            <div class="mt-2 mb-3"><i class="bi bi-geo-alt-fill"></i> May 2023; Skolkovo Institute of Science and Technology </div>
+
+            <div class="fw-bold mx-1"> Donor’s Day SPbPU </div>
+            <div class="mt-2 mb-3"><i class="bi bi-geo-alt-fill"></i> 2019; Peter the Great St.Petersburg Polytechnic University </div>
+
+        </div>
+        <div class=" col-6">
+            <div class="fw-bold mx-1"> «Scientists Against Myths», «Science Station»  </div>
+            <div class="mt-2 mb-3"><i class="bi bi-geo-alt-fill"></i> 2018 - 2019; «SciTeam» Center for the Science Promotion </div>
+
+            <div class="fw-bold mx-1"> Eco-festival  </div>
+            <div class="mt-2 mb-3"><i class="bi bi-geo-alt-fill"></i>  2019; Dubki, Sestroretsk </div>
+        </div>
+
+            <div class="fw-bold mx-1"> North-West Public Organization of the Russian Federation of Cosmonautics  </div>
+            <div class="mt-2 mb-3"><i class="bi bi-geo-alt-fill"></i>  2018 - 2019; Saint-Petersburg </div>
+    </div>
+</div>
+
+
+<!-- Contacts-->
+<div class="container pt-5 px-2 mt-5 mb-5">
+    <h2 class="display-5 text-center"> Let's do something <b>wonderful</b> together! </h2>
+    <div class="row  bg-body-padding rounded-4 justify-content-center  lead-15 fw-normal my-6">
+                <div class="my-2 col-4 justify-content-center text-center"><i class="bi bi-envelope-fill"></i> <a href="mailto:vaulin@ro.ru">vaulin@ro.ru</a></div>
+                <div class="my-2 col-4 justify-content-center text-center"><img src="static/images/telegram.svg" alt="Telegram" style="width: 24px; height: 24px;"> <a href="https://t.me/nvaulin">nvaulin</a> </div>
+                <div class="my-2 col-4 justify-content-center text-center"><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/nvaulin/">nvaulin</a> </div>
+            </div>
+    </div>
+</div>
+
+
+
+<!-- Here starts the footer -->
+<div class="container">
+    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2023 Nikita Vaulin</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter"></use>
+                </svg>
+            </a></li>
+            <li class="ms-3"><a class="text-muted" href="#">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use>
+                </svg>
+            </a></li>
+            <li class="ms-3"><a class="text-muted" href="#">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use>
+                </svg>
+            </a></li>
+        </ul>
+    </footer>
+</div>
+
+</body>
+</html>
