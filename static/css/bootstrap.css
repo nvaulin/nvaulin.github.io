@@ -12088,7 +12088,7 @@ poper_trigger:hover + poper_upper {
 .marquee span {
     display: inline-block;
     padding-left: 100%;
-    animation: scroll 25s infinite linear;
+    animation: scroll 45s infinite linear;
 }
 
 
