@@ -345,7 +345,7 @@ sup {
 
 a {
     color: inherit;
-  /*color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));*/
+    /* color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1)); */
 /*  text-decoration: underline;*/
 }
 a:hover {
