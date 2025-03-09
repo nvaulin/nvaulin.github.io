@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,28 +11,32 @@
             font-family: Arial, sans-serif;
             padding: 50px;
         }
+
         h1 {
-            font-size: 2.5em;
-            color: #333;
+            font-size: 1.8em;
+            color: #000;
         }
         h2 {
-            font-size: 1.8em;
-            color: #555;
+            font-size: 0.9em;
+            color: #666;
         }
         .button-container {
             margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
         }
         .btn {
-            display: inline-block;
             background-color: #ad4b5c;
             color: white;
             border: 2px solid black;
             padding: 15px 30px;
-            margin: 10px;
             font-size: 1.2em;
             text-decoration: none;
-            border-radius: 10px;
+            border-radius: 5px;
             transition: 0.3s;
+            text-align: center;
         }
         .btn:hover {
             background-color: #8c3d4a;
@@ -43,11 +46,22 @@
             font-size: 0.9em;
             color: #777;
         }
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .btn {
+                width: 80%;
+                padding: 20px;
+                font-size: 1.5em;
+            }
+        }
     </style>
 </head>
 <body>
-    <h2>Systematic comparison of iPSC-derived and post-mortem neurons on the transcriptomic, epigenomic, and 3D-genomic levels</h2>
-    <h4>D. Zagirova, N. Vaulin (*), K. Morozov, A. Kononkova, M. Molodova, E. Khrameeva </br> nikita.vaulin@meduniwien.ac.at</h4>
+    <h1>Systematic comparison of iPSC-derived and post-mortem neurons on the transcriptomic, epigenomic, and 3D-genomic levels</h1>
+    <h2>D. Zagirova, N. Vaulin (*), K. Morozov, A. Kononkova, M. Molodova, E. Khrameeva </br> nikita.vaulin@meduniwien.ac.at</h2>
 
     <div class="button-container">
         <a href="HiC_intro.pdf" class="btn">What is Hi-C?</a>
